@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id = "contact">
+    <div class="container">
+      <header class="header">
+        <a  class ="link-title" href="/">Caroline's Website</a>
+      </header>
+
+      <nav class="menu">
+        <a href="/index.htm">Home</a> &nbsp; <a href="about.htm">About Us</a> &nbsp;
+        <a href="contact.htm">Contact Us</a> &nbsp;
+      </nav>
+      <aside>
+        <h1>Side Bar</h1>
+      </aside>
+
+      <article class="main">
+
+        <h1 class = "page-heading">Contact Me</h1>
+        <div id="form">
+          <form action="process.php">
+            <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" >
+          </p>
+
+          <p>
+            <label for="name">Email:</label>
+            <input type="text" name="email">
+          </p>
+
+          <p>
+            <label for="name">Subject: </label>
+            <input type="text" name="subject">
+          </p>
+
+          <p>
+            <label for="name">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </p>
+          <p>
+            <input type="submit" id="submit" name="submit" value="Send Message">
+          </p>
+
+          </form>
+        </div>
+      </article>
+
+      <footer>
+        &copy:2030 Minimal Website &nbsp; <span class="separator">|</span> &nbsp;
+        Design by <a href="http://github.com/carolfons">Caroline Fonseca</a>
+      </footer>
+    
+  </body>
+</html>
